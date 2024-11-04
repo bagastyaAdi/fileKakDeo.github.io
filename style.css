@@ -1,0 +1,130 @@
+@import url(mobile-display.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+input:hover {
+  border: 1.5px solid #008051;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #b0ffe5;
+}
+
+.cover {
+  background-color: white;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tittle {
+  padding: 20px 0px;
+}
+
+/* Name */
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name input {
+  height: 25px;
+  width: 220px;
+  padding: 5px;
+  margin-top: 10px;
+}
+/* Akhri Name */
+
+/* Email */
+.email {
+  margin: 20px 0px;
+}
+.email input {
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+  margin-top: 10px;
+}
+/* Akhir Email */
+
+/* Query Type */
+.radio-select {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.radio-select label {
+  margin-top: 10px;
+}
+
+.radio-select #option1[type="radio"] {
+  position: absolute;
+  margin: 17px 20px;
+  accent-color: green;
+}
+
+.radio-select #option2[type="radio"] {
+  position: absolute;
+  margin: 17px 20px;
+  accent-color: green;
+}
+
+.radio-select label {
+  padding: 5px 50px;
+  cursor: pointer;
+  border: 1px solid #666;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.radio-select input[type="radio"]:checked + label {
+  background-color: rgba(0, 128, 81, 0.5);
+  border-color: rgba(0, 128, 81, 0.5);
+}
+
+/* Akhir Query Type */
+
+/* Massage */
+.massage {
+  margin-top: 20px;
+}
+.massage textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 10px;
+}
+textarea:hover {
+  border: 1.5px solid #008051;
+  cursor: text;
+}
+/* Akhir Massage */
+
+/* Checklist */
+.checklist {
+  margin: 10px 0px;
+}
+.checklist input[type="checkbox"] {
+  accent-color: green;
+}
+/* Akhir checklist */
+
+/* Submit */
+.submit input {
+  width: 100%;
+  height: 30px;
+  background-color: #008051;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+/* Akhir Submit */
